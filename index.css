@@ -9,6 +9,6 @@ header{
     height: 100%;
     margin: 0px;
     padding: 10px 10px;
-    font: 2em;
+    font-size: 2em;
     color: hsl(35, 100%, 59%);
 }
