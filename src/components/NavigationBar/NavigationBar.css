@@ -1,0 +1,50 @@
+.navigation-container{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navigation-bar{
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: rgb(35, 35, 35);
+    padding: 1rem;
+}
+
+.navigation-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 2px;
+}
+.navigation-button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navigation-link {
+    color: white;
+    text-decoration: none;
+    border: 3px solid rgba(255,255,255,0.2);
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    width: 4rem;
+
+    background-color: black;
+
+}

@@ -1,0 +1,11 @@
+body{
+    background-image: url('./images/background.png');
+    background-repeat: repeat;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
