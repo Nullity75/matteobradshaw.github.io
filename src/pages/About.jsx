@@ -2,10 +2,19 @@ import { FaLinkedin } from 'react-icons/fa';
 import QualificationCard from '../components/QualificationCard/QualificationCard.jsx';
 import './About.css';
 
+import tonbridgeSchool from '../images/tonbridge-school.png';
+import tuDelftLogo from '../images/TUDelft-logo.jpg';
+import sapienzaLogo from '../images/Sapienza-logo.png';
+import airplaneIcon from '../images/airplane.svg';
+import pythonIcon from '../images/python.svg';
+import javascriptIcon from '../images/javascript.svg';
+import html5Logo from '../images/HTML5_logo_and_wordmark.svg.webp';
+import css3Logo from '../images/CSS3_logo_and_wordmark.svg.webp';
+
 const education = [
     {
     id: 0,
-    image: "src/images/tonbridge-school.png",
+    image: tonbridgeSchool,
     title: "A-Levels",
     description: (<>
         Tonbridge School 2019-2023.
@@ -16,7 +25,7 @@ const education = [
     },
     {
     id: 1,
-    image: "src/images/TUDelft-logo.jpg",
+    image: tuDelftLogo,
     title: "BSc Aerospace Engineering",
     description: (<>
         Delft University of Technology 2023-2026.
@@ -28,7 +37,7 @@ const education = [
     },
     {
     id: 2,
-    image: "src/images/Sapienza-logo.png",
+    image: sapienzaLogo,
     title: "MSc Engineering in Computer Science and Artificial Intelligence",
     description: (<>
         Sapienza Università di Roma 2025-2026.
@@ -44,35 +53,35 @@ const education = [
 const furtherqualifications = [
     {
     id: 0,
-    image: "src/images/airplane.svg",
+    image: airplaneIcon,
     title: "CAA & EASA Private Pilot License",
     description: "",
     cardname: "PPL-card"
     },
     {
     id: 1,
-    image: "src/images/python.svg",
+    image: pythonIcon,
     title: "Python",
     description: "",
     cardname: ""
     },
     {
     id: 2,
-    image: "src/images/javascript.svg",
+    image: javascriptIcon,
     title: "JavaScript",
     description: "",
     cardname: ""
     },
     {
     id: 3,
-    image: "src/images/HTML5_logo_and_wordmark.svg.webp",
+    image: html5Logo,
     title: "HTML5",
     description: "",
     cardname: "HTML5-card"
     },
     {
     id: 4,
-    image: "src/images/CSS3_logo_and_wordmark.svg.webp",
+    image: css3Logo,
     title: "CSS",
     description: "",
     cardname: "CSS-card"
