@@ -1,0 +1,16 @@
+.email-link{
+    color: rgba(184, 221, 254, 0.657);
+    text-decoration: underline;
+}
+
+.email-link:hover{
+    opacity: 0.8;
+}
+
+.gmail-icon{
+    position: relative;
+    font-size: 1.5rem;
+    top: 5.9px;
+    color: brown;
+    margin-right: 0.5rem;
+}

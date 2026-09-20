@@ -1,20 +1,23 @@
-import { Link } from 'react-router';
-import { FaBars } from 'react-icons/fa'
 import './NavigationBar.css';
 
-function NavigationBar(){
+function NavigationBar({ goTo }) {
+  return (
+    <nav className="navigation-bar">
+      <button
+        className="navigation-link"
+        onClick={() => goTo("/")}
+      >
+        <span className="navigation-text">ABOUT</span>
+      </button>
 
-    return(
-        <div className='navigation-container'>
-            <button className='navigation-button'><FaBars /></button>
-            <nav className='navigation-bar'>
-                <Link className="navigation-link" to="/">Home</Link>
-                <Link className="navigation-link" to="/about">About</Link>
-                <Link className="navigation-link" to="/projects">Projects</Link>
-                <Link className="navigation-link" to="/contact">Contact</Link>
-            </nav>
-        </div>
-    );
+      <button
+        className="navigation-link"
+        onClick={() => goTo("/contact")}
+      >
+        <span className="navigation-text">CONTACT</span>
+      </button>
+    </nav>
+  );
 }
 
-export default NavigationBar
+export default NavigationBar;

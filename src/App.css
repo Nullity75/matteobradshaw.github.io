@@ -1,11 +1,56 @@
-body{
-    background-image: url('./images/background.png');
-    background-repeat: repeat;
+.no-ai-footnote{
+    text-align: right;
+    padding: 12px;
+    color: rgba(184, 221, 254, 0.657);
+    font-size: 0.6rem;
 }
 
-main{
+.wrapper{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: white;
+}
+
+.credits-link {
+  background: none;
+  border: none;
+  padding: 0;
+
+  color: inherit;
+  font: inherit;
+
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.credits-link:hover{
+    opacity: 0.8;
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease;
+}
+
+.fade-out {
+  animation: fadeOut 0.35s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }

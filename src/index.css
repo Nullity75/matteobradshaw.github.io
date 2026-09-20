@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Audiowide", serif;
+    /* background-image: url('./images/background.webp');
+    background-repeat: repeat; */
+    /* background-position: center top; */
+    background-color: rgb(31, 31, 31);
+    margin: 0;
+    min-width: 315px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: rgb(220, 220, 220);
+    width: calc(100% - 2rem);
+    max-width: 600px;
+    margin: 0rem auto;
+}
+
+header{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+p{
+    font-family: "roboto condensed", serif;
+}
+
+h1{
+    color: hsl(48, 97%, 53%);
+    border-bottom: 1px solid white;
+    width: fit-content;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+
+h2{
+    color: hsl(48, 97%, 53%);
+    font-size: 1.2rem;
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease;
+}
+
+.fade-out {
+  animation: fadeOut 0.35s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

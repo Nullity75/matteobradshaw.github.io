@@ -1,35 +1,53 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
+import { Link, Routes, Route, useNavigate } from 'react-router';
+import { useState } from 'react';
 
 import NavigationBar from './components/NavigationBar/NavigationBar.jsx'
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
 import About from './pages/About';
+import Credits from './pages/Credits.jsx'
 import './App.css';
 
 function App() {
+  const navigate = useNavigate();
+  const [leaving, setLeaving] = useState(false);
+
+  function goTo(path) {
+    setLeaving(true);
+
+    setTimeout(() => {
+      navigate(path);
+      setLeaving(false);
+    }, 350);
+  }
+
   return (<>
-     <BrowserRouter>
+     
+      <div className="wrapper">
 
-      <NavigationBar />
+        <header>
+          <NavigationBar goTo={goTo}/>
+        </header>
 
-      <main>
+        <main className={leaving ? "fade-out" : "fade-in"}>
 
-        <Routes>
+          <Routes>
 
-          <Route path="/" element={<Home />} />
+            <Route path="/" element={<About />} />
 
-          <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
 
-          <Route path="/projects" element={<Projects />} />
+            <Route path="/credits" element={<Credits />} />
 
-          <Route path="/contact" element={<Contact />} />
+          </Routes>
 
-        </Routes>
+        </main>
 
-      </main>
+        <footer className={"no-ai-footnote"}>
+        All text on this website is not AI-generated. <button className="credits-link" onClick={() => goTo("/credits")}>Credits.</button>
+        </footer>
 
-    </BrowserRouter>
+      </div>    
+      
   </>)
 }
 
