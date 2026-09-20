@@ -91,7 +91,7 @@ function About() {
             Background and Qualifications {' '}
             <a className="linkedin-link" href="https://www.linkedin.com/in/matteo-bradshaw" target="_blank" rel="noopener noreferrer"> <FaLinkedin className="linkedin-icon"/> </a>
         </h2>
-        <p>I was born and raised in London to an Italian mother and British father and lived there until I moved to the Delft in the Netherlands (2023) for my three year Bachelor's in Aerospace Engineering. As of 2026 I am based in Rome, Italy.</p>
+        <p>I was born and raised in London to an Italian mother and a British father and lived there until I moved to Delft in the Netherlands (2023) for my three-year Bachelor's in Aerospace Engineering. As of 2026 I am based in Rome, Italy.</p>
        
        <h3 className="qualification-intro">Education</h3>
 
