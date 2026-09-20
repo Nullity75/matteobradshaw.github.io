@@ -85,7 +85,7 @@ function About() {
     <div>
         <h1>ABOUT</h1>
         <p>My name is Matteo Bradshaw and I intend to help save humanity.</p>
-        <p>Life is an extraordinary thing that some of us (myself included) often take for granted and recent advances in Artificial Intelligence threaten to take this simultaneously weird and wonderful experience away from us. This imminent and increasingly shared understanding of what is at stake is what drives me to work with others to save humanity. There may be those more equipped and qualified than I to help but I believe the rejection of the mentality that 'somebody else will do it' is fundamental. It is for this very reason that I will not stop until we succeed or we fail.</p>
+        <p>Life is extraordinary, and yet some of us (myself included) often take it for granted. Recent advances in artificial intelligence threaten to take this simultaneously weird and wonderful experience away from us. The growing awareness of what is at stake is what drives me to work with others to save humanity. There may be those more equipped and qualified than I am, but I believe the rejection of the mentality that 'somebody else will do it' is fundamental. It is for this very reason that I will not stop until we either succeed or fail.</p>
     
         <h2>
             Background and Qualifications {' '}
