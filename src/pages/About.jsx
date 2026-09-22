@@ -10,6 +10,7 @@ import pythonIcon from '../images/python.svg';
 import javascriptIcon from '../images/javascript.svg';
 import html5Logo from '../images/HTML5_logo_and_wordmark.svg.webp';
 import css3Logo from '../images/CSS3_logo_and_wordmark.svg.webp';
+import mePhoto from '../images/Me.jpeg'
 
 const education = [
     {
@@ -93,8 +94,11 @@ function About() {
     return (
     <div>
         <h1>ABOUT</h1>
-        <p>My name is Matteo Bradshaw and I intend to help save humanity.</p>
-        <p>Life is extraordinary, and yet some of us (myself included) often take it for granted. Recent advances in artificial intelligence threaten to take this simultaneously weird and wonderful experience away from us. The growing awareness of what is at stake is what drives me to work with others to save humanity. There may be those more equipped and qualified than I am, but I believe the rejection of the mentality that 'somebody else will do it' is fundamental. It is for this very reason that I will not stop until we either succeed or fail.</p>
+
+        <img src = {mePhoto} alt = "Me" class = "profile-photo"></img>
+
+        <p>Life is extraordinary, and yet some of us (myself included) often take it for granted. Recent advances in artificial intelligence threaten both to enhance this weird and wonderful experience and, simultaneously, to take it away from us. The growing awareness of what is at stake is what drives me to work with others to protect our shared gift. </p>
+        <p>There may be those more equipped and qualified than I am, but I believe the rejection of the mentality that 'somebody else will do it' is fundamental. It is for this very reason that I will not stop until we either succeed or fail.</p>
     
         <h2>
             Background and Qualifications {' '}
