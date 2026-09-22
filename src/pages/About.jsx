@@ -95,9 +95,9 @@ function About() {
     <div>
         <h1>ABOUT</h1>
 
-        <img src = {mePhoto} alt = "Me" className = "profile-photo"></img>
+        <img src = {mePhoto} alt = "Me" className = "profile-photo"/>
 
-        <p>Life is extraordinary, and yet some of us (myself included) often take it for granted. Recent advances in artificial intelligence threaten both to enhance this weird and wonderful experience and, simultaneously, to take it away from us. The growing awareness of what is at stake is what drives me to work with others to protect our shared gift. </p>
+        <p>Life is extraordinary, and yet some of us (myself included) often take it for granted. Recent advances in artificial intelligence can both enhance this weird and wonderful experience and, simultaneously, threaten to take it away from us. The growing awareness of what is at stake is what drives me to work with others to protect our shared gift. </p>
         <p>There may be those more equipped and qualified than I am, but I believe the rejection of the mentality that 'somebody else will do it' is fundamental. It is for this very reason that I will not stop until we either succeed or fail.</p>
     
         <h2>
