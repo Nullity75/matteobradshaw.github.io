@@ -10,6 +10,7 @@ import pythonIcon from '../images/python.svg';
 import javascriptIcon from '../images/javascript.svg';
 import html5Logo from '../images/HTML5_logo_and_wordmark.svg.webp';
 import css3Logo from '../images/CSS3_logo_and_wordmark.svg.webp';
+import lensAcademyLogo from '../images/lens_academy_logo.png';
 import mePhoto from '../images/Me.jpeg'
 
 const education = [
@@ -87,6 +88,14 @@ const furtherqualifications = [
     description: "",
     cardname: "CSS-card"
     },
+    {
+    id: 5,
+    image: lensAcademyLogo,
+    title: "AI Control Fundamentals",
+    description: "Lens Academy - Expert Tier",
+    link: "https://lensacademy.org/certificate/AT5072z8mvLL6eyPE07fwg",
+    cardname: "lens-academy-logo"
+    },
     
 ];
 
@@ -116,6 +125,7 @@ function About() {
             title={qualification.title}
             description={qualification.description}
             cardname={qualification.cardname}
+            link={qualification.link}
           />
         ))}
       </div>       
@@ -130,6 +140,7 @@ function About() {
             title={qualification.title}
             description={qualification.description}
             cardname={qualification.cardname}
+            link={qualification.link}
           />
         ))}
       </div>    

@@ -1,7 +1,7 @@
 import "./QualificationCard.css"
 
-function QualificationCard({image, title, description, cardname}) {
-    return (
+function QualificationCard({image, title, description, cardname, link}) {
+    const card = (
         <div className = "qualification-card">
             <div className = "qualification-image-box">
                 <img
@@ -16,6 +16,12 @@ function QualificationCard({image, title, description, cardname}) {
             </div>
         </div>
     );
+
+    return link ? (
+        <a className="qualification-card-link" href={link} target="_blank" rel="noopener noreferrer">
+            {card}
+        </a>
+    ) : card;
 }
 
 export default QualificationCard;

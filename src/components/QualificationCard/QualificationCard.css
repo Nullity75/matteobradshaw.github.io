@@ -4,6 +4,15 @@
     gap: 1rem;
 }
 
+.qualification-card-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.qualification-card-link:hover .qualification-text h3{
+    text-decoration: underline;
+}
+
 .qualification-image-box{
     width: 100px;
     height: 100px;
@@ -21,6 +30,11 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.lens-academy-logo{
+    width: 78%;
+    height: 78%;
 }
 
 .qualification-text{

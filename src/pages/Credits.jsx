@@ -28,6 +28,10 @@ function Credits() {
       <p>
         JavaScript logo by gilbarbara, via SVG Repo, licensed under Logo License.
       </p>
+
+      <p>
+        Lens Academy logo from the <a href="https://lensacademy.org" target="_blank" rel="noopener noreferrer">Lens Academy website</a>.
+      </p>
     </div>
   );
 }
